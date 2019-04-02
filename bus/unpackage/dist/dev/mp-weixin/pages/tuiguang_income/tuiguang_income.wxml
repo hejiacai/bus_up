@@ -1,0 +1,2 @@
+<import src="./tuiguang_income.vue.wxml" />
+    <template is="6189796a" data="{{ ...$root['0'], $root }}"/>

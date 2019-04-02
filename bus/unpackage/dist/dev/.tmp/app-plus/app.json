@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/login/login-phone",
+    "pages/city-wide/city-wide",
+    "pages/trading-hall/trading-hall",
+    "pages/personal-center/personal-center"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#CFCECE",
+    "selectedColor": "#F7527A",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab_bar1.png",
+        "selectedIconPath": "static/index_bar.png"
+      },
+      {
+        "pagePath": "pages/city-wide/city-wide",
+        "text": "同城服务",
+        "iconPath": "static/tab_bar2.png",
+        "selectedIconPath": "static/s_tab_bar2.png"
+      },
+      {
+        "pagePath": "pages/trading-hall/trading-hall",
+        "text": "交易大厅",
+        "iconPath": "static/tab_bar3.png",
+        "selectedIconPath": "static/s_tab3.png"
+      },
+      {
+        "pagePath": "pages/personal-center/personal-center",
+        "text": "个人中心",
+        "iconPath": "static/tab_bar4.png",
+        "selectedIconPath": "static/s_tab4.png"
+      }
+    ]
+  },
+  "splashscreen": {
+    "autoclose": true
+  },
+  "appname": "white-elephant"
+}

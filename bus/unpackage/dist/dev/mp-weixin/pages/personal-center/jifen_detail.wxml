@@ -1,0 +1,2 @@
+<import src="./jifen_detail.vue.wxml" />
+    <template is="4bee9c5c" data="{{ ...$root['0'], $root }}"/>

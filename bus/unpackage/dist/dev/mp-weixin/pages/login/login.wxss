@@ -1,0 +1,72 @@
+
+.login-body{
+	padding:0 30rpx;
+	padding-top: 156rpx;
+	
+	padding-top: 106rpx;
+	
+}
+.login-logo{
+	text-align: center;
+}
+.login-logo image{
+	width: 233rpx;
+	height: 213rpx;
+}
+.login-title{
+	font-size: 48rpx;
+	margin-top: 40rpx;
+	text-align: center;
+	color: #F64570;
+	margin-bottom: 140rpx;
+}
+.login-button{
+	text-align: center;
+	margin-bottom: 68rpx;
+}
+.login-button ._button{
+	width: 608rpx;
+	height: 100rpx;
+	border-radius: 60rpx;
+	font-size: 30rpx;
+	color: #FFFFFF;
+	background: -webkit-gradient(linear,left top, right top,from(#D32F58),to(#F54570));
+	background: -o-linear-gradient(left,#D32F58,#F54570);
+	background: linear-gradient(to right,#D32F58,#F54570);
+	line-height: 100rpx;
+}
+.login-mode{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.login-mode-content{
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 30rpx;
+	font-weight: 600;
+}
+.login-mode-content image{
+	margin-right: 30rpx;
+}
+.phone{
+	width: 36rpx;
+	height: 52rpx;
+}
+.wx{
+	width: 65rpx;
+	height: 53rpx;
+}
+

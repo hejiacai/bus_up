@@ -1,0 +1,2 @@
+<import src="./green_currency.vue.wxml" />
+    <template is="56f5bae8" data="{{ ...$root['0'], $root }}"/>

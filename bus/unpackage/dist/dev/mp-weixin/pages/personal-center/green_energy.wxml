@@ -1,0 +1,2 @@
+<import src="./green_energy.vue.wxml" />
+    <template is="7ec79e20" data="{{ ...$root['0'], $root }}"/>

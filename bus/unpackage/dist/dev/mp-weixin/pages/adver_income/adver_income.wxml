@@ -1,0 +1,2 @@
+<import src="./adver_income.vue.wxml" />
+    <template is="14e796a0" data="{{ ...$root['0'], $root }}"/>

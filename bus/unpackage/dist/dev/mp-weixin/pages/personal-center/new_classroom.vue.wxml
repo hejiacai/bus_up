@@ -1,0 +1,1 @@
+<template name="574b0f18"><view class="_view 574b0f18 box"><view class="_view 574b0f18 img_o"><image src="{{item.videolink}}" mode wx:key="index" key="{{index}}" wx:for="{{imgList}}" wx:for-index="index" wx:for-item="item" class="_image 574b0f18"></image></view></view></template>

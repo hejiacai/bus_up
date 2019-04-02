@@ -1,0 +1,2 @@
+<import src="./fabu.vue.wxml" />
+    <template is="21b1e216" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,75 @@
+
+.but{
+	width: 100%;
+	height: 103rpx;
+	text-align: center;
+}
+.but ._button{
+	width: 610rpx;
+	height: 100%;
+	border-radius: 100rpx;
+	background:rgb(249,78,120) ;
+	color: rgb(255,255,255);
+	font-size: 30rpx;
+	text-align: center;
+	line-height: 103rpx;
+	padding: 0;
+}
+.box{
+	width: 690rpx;
+	height: 481rpx;
+	background: rgb(255,255,255);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin: auto;
+	margin-bottom: 395rpx;
+	margin: auto;
+	margin-bottom: 395rpx;
+}
+.yuan{
+	width: 160rpx;
+	height: 160rpx;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 160rpx;
+	font-size: 36rpx;
+	background: rgb(79,124,242);
+	color: rgb(255,255,255);
+}
+.content{
+	background: rgb(234,233,238);
+	padding-top: 26rpx;
+}
+.sc_top{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	/* margin-top: 26upx; */
+	margin-bottom: 34rpx;
+}
+.sc_top ._img{
+	width: 18rpx;
+	height: 26rpx;
+	margin-right: 30rpx;
+}
+.sc_top ._p{
+	font-size: 30rpx;
+	color:rgb(51,51,51);
+	font-weight: bold;
+}
+

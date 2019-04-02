@@ -1,0 +1,12 @@
+
+.content{
+	padding: 0 75rpx;
+	padding-top: 50rpx;
+}
+._p{
+	font-size: 33rpx;
+	margin-top: 0;
+	margin-bottom: 10rpx;
+}
+
+

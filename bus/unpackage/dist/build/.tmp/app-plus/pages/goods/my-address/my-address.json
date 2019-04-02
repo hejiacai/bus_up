@@ -1,0 +1,13 @@
+{
+  "titleNView": {
+    "backgroundColor": "#FFFFFF",
+    "titleColor": "#000",
+    "titleText": "我的地址",
+    "buttons": [
+      {
+        "text": "添加新地址",
+        "fontSize": "24upx"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-popup.vue.wxml" />
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<import src="/components/uni-status-bar.vue.wxml" />
+<import src="/common/slots.wxml" />
+
+<template name="288287b2-default-288287b2-2"><view class="_view 288287b2 input-view"><template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'288287b2-1'],$root}}" is="15fdb76c"></template><input confirm-type="search" bindconfirm="handleProxy" class="_input 288287b2 input" type="text" placeholder="输入搜索关键词" data-eventid="{{'288287b2-0'}}" data-comkey="{{$k}}" /></view></template>
+
+<template name="288287b2-left-288287b2-2"><view class="_view 288287b2 city"><text class="_text 288287b2 cs">{{city}}</text><template type="arrowdown" color="#333333" size="22" data="{{...$root['0'], ...$root[$kk+'288287b2-0'],$root}}" is="15fdb76c"></template></view></template>
+
+<template name="288287b2-right-288287b2-2"><view class="_view 288287b2 msg" bindtap="handleProxy" data-eventid="{{'288287b2-1'}}" data-comkey="{{$k}}"><image src="../../static/index_msg.png" class="_image 288287b2 msg_img"></image><view class="_view 288287b2 msg_num" wx:if="{{msg_num!=''}}">{{msg_num}}</view></view></template>
+
+<template name="0a3424e1-default-0a3424e1-0"><view class="_view 0a3424e1 pop_content">确定要退出用户吗</view><view class="_view 0a3424e1 comf_but"><view class="_view 0a3424e1 qx" bindtap="handleProxy" data-eventid="{{'0a3424e1-6'}}" data-comkey="{{$k}}">取消</view><view class="_view 0a3424e1 qd" bindtap="handleProxy" data-eventid="{{'0a3424e1-7'}}" data-comkey="{{$k}}">确定</view></view></template>
+

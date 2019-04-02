@@ -1,0 +1,97 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/login/login-phone",
+    "pages/city-wide/city-wide",
+    "pages/trading-hall/trading-hall",
+    "pages/personal-center/personal-center",
+    "pages/register/register",
+    "pages/messages/messages",
+    "pages/system/system",
+    "pages/fensi/fensi",
+    "pages/help/help",
+    "pages/info/info",
+    "pages/success_friend/success_friend",
+    "pages/system/system_detail",
+    "pages/personal-center/upload",
+    "pages/personal-center/tuiguang",
+    "pages/personal-center/my_team",
+    "pages/personal-center/my_deal",
+    "pages/personal-center/my_yuyue",
+    "pages/personal-center/fenhong",
+    "pages/login/code_login",
+    "pages/login/forget_password",
+    "pages/personal-center/my_jifen",
+    "pages/personal-center/jifen_detail",
+    "pages/personal-center/transaction_amount",
+    "pages/personal-center/per_incom",
+    "pages/personal-center/green_currency",
+    "pages/personal-center/green_energy",
+    "pages/personal-center/pay_energy",
+    "pages/personal-center/apply_master",
+    "pages/personal-center/service",
+    "pages/login/code",
+    "pages/personal-center/new_classroom",
+    "pages/adver_income/adver_income",
+    "pages/tongcheng_income/tongcheng_income",
+    "pages/jifen_income/jifen_income",
+    "pages/tuiguang_income/tuiguang_income",
+    "pages/shezhi/shezhi",
+    "pages/shezhi/change_phone",
+    "pages/shezhi/modifer_password",
+    "pages/shezhi/modifer_pay",
+    "pages/shezhi/modifer_name",
+    "pages/city-wide/fabu",
+    "pages/city-wide/fabu_success",
+    "pages/city-wide/master_detail",
+    "pages/city-wide/liji_order",
+    "pages/personal-center/advertiser",
+    "pages/personal-center/adver_detail",
+    "pages/personal-center/issue_rules",
+    "pages/index/hot_adver",
+    "pages/goods/goods-details/goods-details",
+    "pages/goods/confirm-oreder/confirm-oreder",
+    "pages/goods/my-address/my-address"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#CFCECE",
+    "selectedColor": "#F7527A",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/tab_bar1.png",
+        "selectedIconPath": "static/index_bar.png"
+      },
+      {
+        "pagePath": "pages/city-wide/city-wide",
+        "text": "同城服务",
+        "iconPath": "static/tab_bar2.png",
+        "selectedIconPath": "static/s_tab_bar2.png"
+      },
+      {
+        "pagePath": "pages/trading-hall/trading-hall",
+        "text": "交易大厅",
+        "iconPath": "static/tab_bar3.png",
+        "selectedIconPath": "static/s_tab3.png"
+      },
+      {
+        "pagePath": "pages/personal-center/personal-center",
+        "text": "个人中心",
+        "iconPath": "static/tab_bar4.png",
+        "selectedIconPath": "static/s_tab4.png"
+      }
+    ]
+  },
+  "permission": {}
+}

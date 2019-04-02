@@ -1,0 +1,2 @@
+<import src="./advertiser.vue.wxml" />
+    <template is="669f09f2" data="{{ ...$root['0'], $root }}"/>

@@ -1,0 +1,2 @@
+<import src="./liji_order.vue.wxml" />
+    <template is="24dbbada" data="{{ ...$root['0'], $root }}"/>

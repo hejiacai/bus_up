@@ -1,0 +1,672 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/login/login",
+            "style" : {
+                "navigationBarTitleText" : "登录",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+		{
+            "path" : "pages/index/index",
+            "style" : {
+                "navigationBarTitleText" : "首页",
+                "enablePullDownRefresh" : true,
+                "app-plus" : {
+                    "titleNView" : false,
+                    "bounce" : "none",
+                    "scrollIndicator" : "none",
+                    "pullToRefresh" : {
+                        "style" : "circle",
+                        "offset" : "70px",
+                        "color" : "#007AFF"
+                    }
+                }
+            }
+        },
+        
+        {
+            "path" : "pages/login/login-phone",
+            "style" : {
+                "navigationBarTitleText" : "手机登录",
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/city-wide/city-wide",
+            "style" : {
+				"navigationBarTitleText" : "同城服务",
+				"navigationBarBackgroundColor":"#FFFFFF"
+			}
+        },
+        {
+            "path" : "pages/trading-hall/trading-hall",
+            "style" : {
+				"navigationBarTitleText" : "交易大厅",
+				"navigationBarBackgroundColor":"#EA3E69",
+				"navigationBarTextStyle":"white",
+				"app-plus":{
+					"titleNView":{
+						"titleColor":"#FFFFFF"
+					}
+				}
+			}
+        },
+		{
+			"path":"pages/personal-center/personal-center",
+			"style":{
+				"navigationStyle":"custom",
+				// "navigationBarTitleText" : "个人中心",
+				// "navigationBarBackgroundColor":"#EA3E69",
+				// "navigationBarTextStyle":"white",
+				"app-plus":{
+					"titleNView":{
+						"titleColor":"#FFFFFF"
+					}
+				}
+			}
+		},
+		{
+		    "path" : "pages/register/register",
+		    "style" : {
+		        "navigationBarTitleText" : "手机注册",
+		        "app-plus" : {
+		            "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/messages/messages",
+		    "style" : {
+		        "navigationBarTitleText" : "消息列表",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/system/system",
+		    "style" : {
+		        "navigationBarTitleText" : "系统消息",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/fensi/fensi",
+		    "style" : {
+		        "navigationBarTitleText" : "粉丝通知",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/help/help",
+		    "style" : {
+		        "navigationBarTitleText" : "帮助好友",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/info/info",
+		    "style" : {
+		        "navigationBarTitleText" : "消息提醒",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/success_friend/success_friend",
+		    "style" : {
+		        "navigationBarTitleText" : "成功好友",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/system/system_detail",
+		    "style" : {
+		        "navigationBarTitleText" : "系统消息",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/upload",
+		    "style" : {
+		        "navigationBarTitleText" : "上传凭证",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/tuiguang",
+		    "style" : {
+		        "navigationBarTitleText" : "我要推广",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/my_team",
+		    "style" : {
+		        "navigationBarTitleText" : "我的团队",
+				"navigationBarBackgroundColor":"#EA3E69",
+				"navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/my_deal",
+		    "style" : {
+		        "navigationBarTitleText" : "我的买卖",
+				// "navigationBarBackgroundColor":"#EA3E69",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/my_yuyue",
+		    "style" : {
+		        "navigationBarTitleText" : "我的预约",
+				// "navigationBarBackgroundColor":"#EA3E69",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/fenhong",
+		    "style" : {
+		        "navigationBarTitleText" : "分红",
+				// "navigationBarBackgroundColor":"#EA3E69",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/login/code_login",
+		    "style" : {
+		        "navigationBarTitleText" : "验证码登录",
+				// "navigationBarBackgroundColor":"#EA3E69",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/login/forget_password",
+		    "style" : {
+		        "navigationBarTitleText" : "忘记密码",
+				// "navigationBarBackgroundColor":"#EA3E69",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/my_jifen",
+		    "style" : {
+		        "navigationBarTitleText" : "我的积分",
+				// "navigationBarBackgroundColor":"#EA3E69",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/jifen_detail",
+		    "style" : {
+		        "navigationBarTitleText" : "积分详情",
+				"navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/transaction_amount",
+		    "style" : {
+		        "navigationBarTitleText" : "交易金额",
+				"navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/per_incom",
+		    "style" : {
+		        "navigationBarTitleText" : "今日收益",
+				"navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/green_currency",
+		    "style" : {
+		        "navigationBarTitleText" : "绿能币",
+				"navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/green_energy",
+		    "style" : {
+		        "navigationBarTitleText" : "绿色能量",
+				"navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/pay_energy",
+		    "style" : {
+		        "navigationBarTitleText" : "绿色能量出售",
+				"navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/apply_master",
+		    "style" : {
+		        "navigationBarTitleText" : "师傅认证",
+				// "navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/service",
+		    "style" : {
+		        "navigationBarTitleText" : "客服",
+				// "navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/login/code",
+		    "style" : {
+		        "navigationBarTitleText" : "验证码",
+				// "navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/new_classroom",
+		    "style" : {
+		        "navigationBarTitleText" : "新人课堂",
+				// "navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/adver_income/adver_income",
+		    "style" : {
+		        "navigationBarTitleText" : "广告收入",
+				"navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/tongcheng_income/tongcheng_income",
+		    "style" : {
+		        "navigationBarTitleText" : "同城收入",
+				"navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/jifen_income/jifen_income",
+		    "style" : {
+		        "navigationBarTitleText" : "积分收入",
+				"navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/tuiguang_income/tuiguang_income",
+		    "style" : {
+		        "navigationBarTitleText" : "推广收入",
+				"navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/shezhi/shezhi",
+		    "style" : {
+		        "navigationBarTitleText" : "设置",
+				// "navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/shezhi/change_phone",
+		    "style" : {
+		        "navigationBarTitleText" : "修改手机号",
+				// "navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/shezhi/modifer_password",
+		    "style" : {
+		        "navigationBarTitleText" : "修改密码",
+				// "navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/shezhi/modifer_pay",
+		    "style" : {
+		        "navigationBarTitleText" : "修改支付密码",
+				// "navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/shezhi/modifer_name",
+		    "style" : {
+		        "navigationBarTitleText" : "修改昵称",
+				// "navigationBarBackgroundColor":"#e9426c",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/city-wide/fabu",
+		    "style" : {
+		        "navigationBarTitleText" : "发布",
+				"navigationBarBackgroundColor":"#e83e67",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/city-wide/fabu_success",
+		    "style" : {
+		        "navigationBarTitleText" : "实名认证",
+				// "navigationBarBackgroundColor":"#e83e67",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/city-wide/master_detail",
+		    "style" : {
+		        "navigationBarTitleText" : "师傅详情",
+				// "navigationBarBackgroundColor":"#e83e67",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/city-wide/liji_order",
+		    "style" : {
+		        "navigationBarTitleText" : "立即接单",
+				// "navigationBarBackgroundColor":"#e83e67",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/advertiser",
+		    "style" : {
+		        "navigationBarTitleText" : "广告主",
+				// "navigationBarBackgroundColor":"#e83e67",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/adver_detail",
+		    "style" : {
+		        "navigationBarTitleText" : "广告主详情",
+				// "navigationBarBackgroundColor":"#e83e67",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/personal-center/issue_rules",
+		    "style" : {
+		        "navigationBarTitleText" : "发放规则",
+				// "navigationBarBackgroundColor":"#e83e67",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/index/hot_adver",
+		    "style" : {
+		        "navigationBarTitleText" : "热门广告",
+				// "navigationBarBackgroundColor":"#e83e67",
+				// "navigationBarTextStyle":"white",
+		        "app-plus" : {
+					"titleNView" : false
+		            // "titleColor" : "#FFFFFF"
+		        }
+		    }
+		},
+		{
+		    "path" : "pages/goods/goods-details/goods-details",
+		    "style" : {
+		        "navigationBarTitleText" : "商品详情",
+		        "navigationBarBackgroundColor" : "#FFFFFF"
+		    }
+		},
+		{
+		    "path" : "pages/goods/confirm-oreder/confirm-oreder",
+		    "style" : {
+		        "navigationBarTitleText" : "确认订单",
+		        "navigationBarBackgroundColor" : "#FFFFFF",
+		        "backgroundColor" : "#E7E6EB"
+		    }
+		},
+		{
+		    "path" : "pages/goods/my-address/my-address",
+		    "style" : {
+				// "navigationBarTitleText" : "",
+				"app-plus":{
+					"titleNView":{
+						"backgroundColor":"#FFFFFF",
+						"titleColor": "#000",
+						"titleText":"我的地址",
+						"buttons":[
+							{
+								"text":"添加新地址",
+								"fontSize":"24upx"	
+							}
+						]
+					}
+				}
+			}
+		}
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "tabBar" : {
+        "color" : "#CFCECE",
+        "selectedColor" : "#F7527A",
+        "backgroundColor" : "#FFFFFF",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "text" : "首页",
+                "iconPath" : "static/tab_bar1.png",
+                "selectedIconPath" : "static/index_bar.png"
+            },{
+				"pagePath":"pages/city-wide/city-wide",
+				"text":"同城服务",
+				"iconPath":"static/tab_bar2.png",
+				"selectedIconPath":"static/s_tab_bar2.png"
+			},{
+				"pagePath":"pages/trading-hall/trading-hall",
+				"text":"交易大厅",
+				"iconPath":"static/tab_bar3.png",
+				"selectedIconPath":"static/s_tab3.png"
+			},{
+				"pagePath":"pages/personal-center/personal-center",
+				"text":"个人中心",
+				"iconPath":"static/tab_bar4.png",
+				"selectedIconPath":"static/s_tab4.png"
+			}
+        ]
+    },
+    "condition" : {
+        //模式配置，仅开发期间生效
+        "current" : 3, //当前激活的模式（list 的索引项）
+        "list" : [
+            {
+                "name" : "index", //首页
+                "path" : "pages/index/index" //启动页面，必选
+            },
+			{
+			    "name" : "city", //同城
+			    "path" : "pages/city-wide/city-wide" 
+			},
+			{
+				"name":"hall",//交易大厅
+				"path":"pages/trading-hall/trading-hall"
+			},
+			{
+				"name":"personal",//个人中心
+				"path":"pages/personal-center/personal-center"
+			}
+        ]
+    }
+}

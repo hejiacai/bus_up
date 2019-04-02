@@ -1,0 +1,2 @@
+<import src="./city-wide.vue.wxml" />
+    <template is="8a7cd698" data="{{ ...$root['0'], $root }}"/>

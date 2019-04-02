@@ -1,0 +1,53 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "postcss": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "touristappid",
+  "projectname": "bus",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 3,
+      "list": [
+        {
+          "name": "index",
+          "id": 0,
+          "pathName": "pages/index/index"
+        },
+        {
+          "name": "city",
+          "id": 1,
+          "pathName": "pages/city-wide/city-wide"
+        },
+        {
+          "name": "hall",
+          "id": 2,
+          "pathName": "pages/trading-hall/trading-hall"
+        },
+        {
+          "name": "personal",
+          "id": 3,
+          "pathName": "pages/personal-center/personal-center"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2 @@
+<import src="./hot_adver.vue.wxml" />
+    <template is="6f0aaa62" data="{{ ...$root['0'], $root }}"/>

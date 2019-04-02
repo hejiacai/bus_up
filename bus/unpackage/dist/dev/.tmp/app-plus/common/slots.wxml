@@ -1,0 +1,11 @@
+<import src="/components/uni-nav-bar.vue.wxml" />
+<import src="/components/uni-icon.vue.wxml" />
+<import src="/components/uni-status-bar.vue.wxml" />
+<import src="/common/slots.wxml" />
+
+<template name="6c4b56a4-default-6c4b56a4-2"><view class="_view 6c4b56a4 input-view"><template type="search" size="22" color="#666666" data="{{...$root['0'], ...$root[$kk+'6c4b56a4-1'],$root}}" is="48d56b9a"></template><input confirm-type="search" bindconfirm="handleProxy" class="_input 6c4b56a4 input" type="text" placeholder="输入搜索关键词" data-eventid="{{'6c4b56a4-0'}}" data-comkey="{{$k}}" /></view></template>
+
+<template name="6c4b56a4-left-6c4b56a4-2"><view class="_view 6c4b56a4 city"><text class="_text 6c4b56a4">{{city}}</text><template type="arrowdown" color="#333333" size="22" data="{{...$root['0'], ...$root[$kk+'6c4b56a4-0'],$root}}" is="48d56b9a"></template></view></template>
+
+<template name="6c4b56a4-right-6c4b56a4-2"><view class="_view 6c4b56a4 msg"><image src="../../static/index_msg.png" class="_image 6c4b56a4 msg_img"></image><view class="_view 6c4b56a4 msg_num" wx:if="{{msg_num!=''}}">{{msg_num}}</view></view></template>
+
